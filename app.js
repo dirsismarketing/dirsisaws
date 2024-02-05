@@ -2,7 +2,7 @@ const telefonos = require("./agenda.js");
 buscarportelefono("39-")
 function buscarportelefono(telefono){
     const contacto = telefonos.filter((x) => x.number.startsWith(telefono));
-    let contactoclon={...contacto}git init
+    let contactoclon={...contacto}
     console.log(contacto);
 }
 
